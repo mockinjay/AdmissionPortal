@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cde57cb905ab4a3fa94eece6895f2450" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.Beneficiari" Width="1.5" PointX="3.75" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Candidati" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Departament" Width="1.5" PointX="1.5" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Facultati" Width="1.5" PointX="1.5" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Locuri_buget" Width="1.5" PointX="6" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Locuri_taxa" Width="1.5" PointX="3" PointY="27.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Olimpici" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Optiuni" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Probe" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Programare_examen" Width="1.5" PointX="6" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Rezultate_probe" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Sali_admitere" Width="1.5" PointX="3.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Specializari" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Utilizatori" Width="1.5" PointX="3" PointY="17.875" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_Beneficiar_Locuri_buget" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Candidat_Programare_examen" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Candidat_Rezultate_probe" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Candidati_Olimpici" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Candidati_Optiuni" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Candidati_Utilizatori" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Departament_Specializari" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Facultate_Departament" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Specializare_Locuri_buget" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Specializare_Locuri_taxa" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Specializari_Optiuni" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Probe_Programare_examen" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Probe_Rezultate_probe" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Sali_Programare_examen" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
